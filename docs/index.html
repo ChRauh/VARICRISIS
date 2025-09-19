@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Christian Rauh / Christian Kreuder-Sonnen">
+<meta name="description" content="VARICRISIS research project">
 
-<title>VARICRISIS</title>
+<title>Welcome! – VARICRISIS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +71,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Welcome! – VARICRISIS">
+<meta property="og:image" content="./files/images/dfg.png">
+<meta property="og:site_name" content="VARICRISIS">
+<meta property="og:image:alt" content="DFG logo">
 </head>
 
 <body class="nav-fixed">
@@ -89,12 +95,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./project.html"> 
+<span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./output.html"> 
+<span class="menu-text">Output</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./crisisdata.html"> 
+<span class="menu-text">Crisis Data</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">VARICRISIS</h1>
+<h1 class="title">Welcome!</h1>
 </div>
 
 
@@ -132,8 +146,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<div style="text-align: justify;">
+<!-- Societal crises often reach across national borders and affect multiple policy areas at once. Crises thus often call for significant governance capacity beyond the individual nation state. Yet, the governance capacity of international organizations (IOs) did not evolve uniformly in response to the varying crises we have observed over the last decades. While some IOs have gained authority and resources, others faced additional constraints or even decline in the face of crisis.<br> -->
+<p>The <em>VARICRISIS</em> research project examines why varying crises expand or diminish IO governance capacities. It integrates perspectives from international relations and public administration, and combines in-depth case studies of individual IOs with innovative large-N data on transboundary crises throughout the last three decades. <br></p>
+<p><em>VARICRISIS</em> is headed by <strong><a href="https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian">Prof.&nbsp;Dr.&nbsp;Christian Kreuder-Sonnen (FSU Jena)</a></strong> and <strong><a href="https://christian-rauh.eu/">Prof.&nbsp;Dr.&nbsp;Christian Rauh (WZB Berlin, University of Potsdam)</a></strong>. The project is generously funded by the German Research Foundation (DFG; <a href="https://gepris.dfg.de/gepris/projekt/560272666?language=en">Project No.&nbsp;560272666</a>) and will <strong><em>kick off in April 2026</em></strong>.</p>
+</div>
+<p><br></p>
+<div style="display: flex; gap: 40px; justify-content: center;">
+<p><a href="https://gepris.dfg.de/gepris/projekt/560272666?language=en" target="_blank" rel="noopener"> <img src="./files/images/dfg.png" alt="DFG logo" style="height:50px;"> </a></p>
+<p><a href="https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian" target="_blank" rel="noopener"> <img src="./files/images/Logo_UniJena.svg.png" alt="FSU logo" style="height:50px;"> </a></p>
+<p><a href="https://www.wzb.eu/en/persons/christian-rauh" target="_blank" rel="noopener"> <img src="./files/images/WZB_hoch_Print.jpg" alt="WZB logo" style="height:50px;"> </a></p>
+<p><a href="https://www.uni-potsdam.de/de/wiso/fakultaet/professuren-personen" target="_blank" rel="noopener"> <img src="./files/images/potsdam.png" alt="Uni Potsdam Logo" style="height:50px;"> </a></p>
+</div>
 
 
 
@@ -242,6 +266,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -556,6 +585,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+©
+<script>document.write(new Date().getFullYear())</script>
+<p>Christian Kreuder-Sonnen / Christian Rauh</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

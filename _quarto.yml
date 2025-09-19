@@ -2,21 +2,49 @@ project:
   type: website
   output-dir: docs
   
+# Meta
+description-meta: "VARICRISIS research project"
+author-meta: "Christian Rauh / Christian Kreuder-Sonnen"
+
+execute:
+  freeze: false
+  cache: false
+
+# SEO niceties
+sitemap: true
+lang: en
+
+  
 website:
   title: "VARICRISIS"
+  
+  open-graph: true   # optional, for better link previews
+  
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: project.qmd
+        text: Project
+      - href: people.qmd
+        text: People
+      - href: output.qmd
+        text: Output
+      - href: crisisdata.qmd
+        text: Crisis Data
+        
+  page-footer:
+    left: "&copy; <script>document.write(new Date().getFullYear())</script> Christian Kreuder-Sonnen / Christian Rauh"
+
+    
+  repo-url: https://github.com/ChRauh/varicrisis/
 
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.css
     toc: true
+    link-external-newwindow: true
 
 
 

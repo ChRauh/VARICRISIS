@@ -1,0 +1,213 @@
+---
+title: "People"
+format:
+  html:
+    toc: false
+    # css: people.css   # optional if you prefer a separate file
+---
+
+
+<!-- Inline ccs -->
+<style>
+.people-list { display: grid; gap: 1.25rem; row-gap: .1rem;}
+.person {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start; 
+  padding: .85rem; border: 1px solid #ddd;
+  border-radius: 12px; background: #fff;
+}
+.person img {
+  width: 130px; height: 160px; object-fit: cover;
+  border-radius: 10px; flex: 0 0 auto;
+}
+.person .meta { display: grid; gap: 0.15rem; }
+.person .name {
+  display: flex; align-items: center; gap: .5rem;
+  font-weight: 700; font-size: 1.05rem;
+}
+.person .name a:first-child { color: inherit; text-decoration: none; white-space: nowrap; }
+.person .icons { display: flex; gap: .35rem; }
+.person .icons a { display: inline-flex; align-items: center; }
+.person .icons svg { width: 16px; height: 16px; display: block; }
+.person .affil { color: #555; margin: 0; }
+.person .title { font-style: italic; color: #333; margin: 0; }
+.person .tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .25rem; }
+.person .tag {
+  font-size: .8rem; padding: .15rem .45rem; border-radius: 999px;
+  background: #f2f2f2;
+}
+</style>
+
+
+<!-- the list of peoples -->
+
+## VARICRISIS team
+
+<div class="people-list">
+
+<section class="person">
+<img src="./files/images/cks.png" alt="Portrait of CKS">
+<div class="meta">
+
+<div class="name">
+<a href="https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian">Prof. Dr. Christian Kreuder-Sonnen</a>
+<span class="icons">
+
+<a href="https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian" title="Personal webpage">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"/>
+<path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/>
+</svg>
+</a>
+
+<a href="mailto:christian.kreuder-sonnen@uni-jena.de" title="Email CKS">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<rect width="20" height="16" x="2" y="4" rx="2"/>
+<path d="m22 6-10 7L2 6"/>
+</svg>
+</a>
+
+</span>
+</div>
+
+<p class="affil">Friedrich-Schiller-Universität Jena — Institute for Political Science</p>
+<p class="title">Professor of Political Science and International Organizations<br>Principal investigator</p>
+
+<div class="tags">
+<span class="tag">International organisations</span>
+<span class="tag">Crisis governance</span>
+<span class="tag">Qualitative methods</span>
+</div>
+
+</div> <!-- CLOSE .meta -->
+</section> <!-- CLOSE .person -->
+
+<!-- Person 2 -->
+<section class="person">
+<img src="./files/images/cr2.png" alt="Portrait of CR">
+<div class="meta">
+
+<div class="name">
+<a href="https://christian-rauh.eu/">Prof. Dr. Christian Rauh</a>
+<span class="icons">
+
+<a href="https://christian-rauh.eu/" title="Personal webpage">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"/>
+<path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/>
+</svg>
+</a>
+
+<a href="mailto:christian.rauh@wzb.eu" title="Email CKS">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<rect width="20" height="16" x="2" y="4" rx="2"/>
+<path d="m22 6-10 7L2 6"/>
+</svg>
+</a>
+
+</span>
+</div>
+
+<p class="affil">WZB Berlin Social Science Cener / University of Potsdam</p>
+<p class="title">Professor for the Politics of Multilevel Governance<br>Principal investigator</p>
+
+<div class="tags">
+<span class="tag">European Union</span>
+<span class="tag">Public Politicization</span>
+<span class="tag">Quantitative text analysis</span>
+</div>
+
+</div> <!-- CLOSE .meta -->
+</section> <!-- CLOSE .person -->
+
+
+
+<!-- Person 3 -->
+<section class="person">
+<img src="./files/images/NN.png" alt="Portrait of NN">
+<div class="meta">
+
+<div class="name">
+<a href="https://www.uni-jena.de/122166/stellenmarkt">N.N.</a>
+<span class="icons">
+
+<a href="https://www.uni-jena.de/122166/stellenmarkt" title="Personal webpage">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"/>
+<path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/>
+</svg>
+</a>
+
+<a href="mailto:christian.kreuder-sonnen@uni-jena.de" title="Email CKS">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<rect width="20" height="16" x="2" y="4" rx="2"/>
+<path d="m22 6-10 7L2 6"/>
+</svg>
+</a>
+
+</span>
+</div>
+
+<p class="affil">Friedrich-Schiller-Universität Jena — Institute for Political Science</p>
+<p class="title">Post-Doctoral researcher<br>Job call will open in November 2025</p>
+
+<div class="tags">
+<span class="tag">International organizations</span>
+<span class="tag">Qualitative methods</span>
+<span class="tag">???</span>
+</div>
+
+</div> <!-- CLOSE .meta -->
+</section> <!-- CLOSE .person -->
+
+
+<!-- Person 3 -->
+<section class="person">
+<img src="./files/images/NN.png" alt="Portrait of NN">
+<div class="meta">
+
+<div class="name">
+<a href="https://www.wzb.eu/en/the-wzb/working-at-the-wzb/job-opportunities">N.N.</a>
+<span class="icons">
+
+<a href="https://www.wzb.eu/en/the-wzb/working-at-the-wzb/job-opportunities" title="Personal webpage">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"/>
+<path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/>
+</svg>
+</a>
+
+<a href="mailto:christian.rauh@wzb.eu" title="Email CKS">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<rect width="20" height="16" x="2" y="4" rx="2"/>
+<path d="m22 6-10 7L2 6"/>
+</svg>
+</a>
+
+</span>
+</div>
+
+<p class="affil">WZB Berlin Social Science Center</p>
+<p class="title">Pre-Doctoral researcher<br>Job call will open in November 2025</p>
+
+<div class="tags">
+<span class="tag">Political science</span>
+<span class="tag">Quantitative text analysis</span>
+<span class="tag">???</span>
+</div>
+
+</div> <!-- CLOSE .meta -->
+</section> <!-- CLOSE .person -->
+
+
+
+</div> <!-- CLOSE .people-list -->

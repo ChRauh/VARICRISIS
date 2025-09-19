@@ -1,1 +1,25 @@
 /* css styles */
+
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Optional: add underline only on hover for clarity */
+a:hover {
+  text-decoration: underline;
+}
+
+/* I'm a nerd */
+p, li {
+  text-align: justify;
+}
+
+/* Hide page title (H1) but keep meta title in <head> */
+.quarto-title > h1.title,
+#title-block-header,
+.quarto-title-block {
+  display: none;
+}
+

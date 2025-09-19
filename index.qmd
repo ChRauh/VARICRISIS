@@ -1,7 +1,40 @@
 ---
-title: "VARICRISIS"
+title: "Welcome!"
 ---
 
-This is a Quarto website.
+::: {style="text-align: justify;"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<!-- Societal crises often reach across national borders and affect multiple policy areas at once. Crises thus often call for significant governance capacity beyond the individual nation state. Yet, the governance capacity of international organizations (IOs) did not evolve uniformly in response to the varying crises we have observed over the last decades. While some IOs have gained authority and resources, others faced additional constraints or even decline in the face of crisis.<br> -->
+The *VARICRISIS* research project examines why varying crises expand or diminish IO governance capacities. It integrates perspectives from international relations and public administration, and combines in-depth case studies of individual IOs with innovative large-N data on transboundary crises throughout the last three decades.
+<br>
+
+*VARICRISIS* is headed by **[Prof. Dr. Christian Kreuder-Sonnen (FSU Jena)](https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian)** and **[Prof. Dr. Christian Rauh (WZB Berlin, University of Potsdam)](https://christian-rauh.eu/)**. The project is generously funded by the German Research Foundation (DFG; [Project No. 560272666](https://gepris.dfg.de/gepris/projekt/560272666?language=en)) and will ***kick off in April 2026***.
+
+:::
+
+<br>
+
+<div style="display: flex; gap: 40px; justify-content: center;">
+
+<a href="https://gepris.dfg.de/gepris/projekt/560272666?language=en" target="_blank" rel="noopener">
+  <img src="./files/images/dfg.png" alt="DFG logo" style="height:50px;">
+</a>
+
+<a href="https://www.fsv.uni-jena.de/en/29975/kreuder-sonnen-christian" target="_blank" rel="noopener">
+  <img src="./files/images/Logo_UniJena.svg.png" alt="FSU logo" style="height:50px;">
+</a>
+
+<a href="https://www.wzb.eu/en/persons/christian-rauh" target="_blank" rel="noopener">
+  <img src="./files/images/WZB_hoch_Print.jpg" alt="WZB logo" style="height:50px;">
+</a>
+
+<a href="https://www.uni-potsdam.de/de/wiso/fakultaet/professuren-personen" target="_blank" rel="noopener">
+  <img src="./files/images/potsdam.png" alt="Uni Potsdam Logo" style="height:50px;">
+</a>
+
+</div>
+
+
+
+
+

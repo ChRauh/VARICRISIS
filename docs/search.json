@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "VARICRISIS",
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "The VARICRISIS project",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Project outline\nContemporary crises often transcend national borders and policy areas, calling for enhanced governance capacity of international organizations (IOs). Yet, only some transboundary crises lead to an increase in the authority and resources of IOs while others even diminish them. For example, the European Central Bank (ECB) gained new competences during the European sovereign debt crisis while the Organization for Security and Cooperation in Europe (OSCE) was hampered in implementing its mandate during the Ukraine crisis.\nWhat explains this variation in outcomes? Extant theories of international relations (IR) provide rather uniform and partially contradictory expectations that focus entirely on the supply-side of institutional design and member state preference constellations. This project argues that systematic attention to variation in crisis perceptions must be taken into account. It offers two key contributions to that end.\nFirst, it builds a novel mid-range theory of crisis effects on IO governance capacity by combining insights from IR theory with public administration (PA) arguments that highlight variation in the intensity, temporal dynamics, and transboundariness of public crisis perceptions, and refines this theory through exploratory case studies.\nSecond, it enables comprehensive comparative analyses of crises by developing an original text-as-data technique to capture varying crisis perceptions in large news agency corpora across the globe and various policy areas between 1992 and 2024. Based on this measure, the project can test its theoretical propositions quantitatively by linking crisis characteristics to measures of IO governance capacity.\nWe thereby shed new light on the ability of IOs to coordinate and guide behavior in managing transboundary crises, which is crucial for both scholars conceptualizing and policymakers aiming to implement more resilient crisis management systems.\n\n\n\n\n\nProject organization\nThis project is designed as a truly cooperative endeavor in which all team members pool and integrate their complementary expertise. To achieve the project’s key objectives, tasks are structured along five work packages (WPs).\nWP1 and 2 – theorization and exploratory case studies – will be primarily handled by the FSU Jena team, headed by Christian Kreuder-Sonnen. These two WPs are strongly interlinked as our initial theoretical conjectures will drive the case selection, while the exploratory case studies inform refinement of our theoretical framework.\nWP3 and 4 – crisis dataset and hypothesis testing – will be primarily handled by the WZB Berlin team, headed by Christian Rauh. These WPs are closely entwined as the crisis dataset is the prerequisite for correlational analyses linking crisis-level variation to IO-level capacity data.\n\n\n\n\n\n\nIntegration across these two core pillars is as crucial for the project. Importantly, the crisis measure developed in WP3 will be necessary to select case for exploratory analysis in WP2, and the theoretical expectations formulated in WP1 will guide the quantitative analyses in WP4. Practically, our work is thus structured around regular progress meetings, joint project retreats, a workshop with cooperation partners and practitioners, and joint conference presentations and publications. Accordingly, WP 5 – publication and dissemination – lies in both team’s common responsibility."
+  },
+  {
+    "objectID": "output.html",
+    "href": "output.html",
+    "title": "Output",
+    "section": "",
+    "text": "To be populated soon!"
+  },
+  {
+    "objectID": "crisisdata.html",
+    "href": "crisisdata.html",
+    "title": "VARICRISIS data set",
+    "section": "",
+    "text": "Measuring and comparing transboundary crises\nTo facilitate theory-building and theory-testing in the project, as well as to enable future cummulative research by the community, VARICRISIS will provide an original large-scale dataset that offers systematic information on the intensity, temporal dynamics, as well as the geographical and functional transboundariness of crises perceptions across the globe and across time (1994-2025).\nTo this end, we will build on an original text corpus covering the news stream of the largest leading international newswire agencies (which will also available for individual qualification projects of the team members), to then extract the relevant crisis features with a targeted NLP measurement model. \n\nThe exact methodological approaches can and will be sharpened together by the whole project team, but an initial proof-of-concept study presented by both PIs at the DVPW conference in Göttingen 2025 underlines the feasibility of the sketched approach. Two crisis case studies from the initial ata set are illustrated below."
   },
   {
     "objectID": "about.html",
@@ -12,5 +26,26 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "The VARICRISIS research project examines why varying crises expand or diminish IO governance capacities. It integrates perspectives from international relations and public administration, and combines in-depth case studies of individual IOs with innovative large-N data on transboundary crises throughout the last three decades. \nVARICRISIS is headed by Prof. Dr. Christian Kreuder-Sonnen (FSU Jena) and Prof. Dr. Christian Rauh (WZB Berlin, University of Potsdam). The project is generously funded by the German Research Foundation (DFG; Project No. 560272666) and will kick off in April 2026."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Prof. Dr. Christian Kreuder-Sonnen \n     \n     \n\n\n\nFriedrich-Schiller-Universität Jena — Institute for Political Science\n\n\nProfessor of Political Science and International OrganizationsPrincipal investigator\n\n\nInternational organisations Crisis governance Qualitative methods\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Christian Rauh \n     \n     \n\n\n\nWZB Berlin Social Science Cener / University of Potsdam\n\n\nProfessor for the Politics of Multilevel GovernancePrincipal investigator\n\n\nEuropean Union Public Politicization Quantitative text analysis\n\n\n\n\n\n\n\n\n\n\nN.N. \n     \n     \n\n\n\nFriedrich-Schiller-Universität Jena — Institute for Political Science\n\n\nPost-Doctoral researcherJob call will open in November 2025\n\n\nInternational organizations Qualitative methods ???\n\n\n\n\n\n\n\n\n\n\nN.N. \n     \n     \n\n\n\nWZB Berlin Social Science Center\n\n\nPre-Doctoral researcherJob call will open in November 2025\n\n\nPolitical science Quantitative text analysis ???"
+  },
+  {
+    "objectID": "people.html#varicrisis-team",
+    "href": "people.html#varicrisis-team",
+    "title": "People",
+    "section": "",
+    "text": "Prof. Dr. Christian Kreuder-Sonnen \n     \n     \n\n\n\nFriedrich-Schiller-Universität Jena — Institute for Political Science\n\n\nProfessor of Political Science and International OrganizationsPrincipal investigator\n\n\nInternational organisations Crisis governance Qualitative methods\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Christian Rauh \n     \n     \n\n\n\nWZB Berlin Social Science Cener / University of Potsdam\n\n\nProfessor for the Politics of Multilevel GovernancePrincipal investigator\n\n\nEuropean Union Public Politicization Quantitative text analysis\n\n\n\n\n\n\n\n\n\n\nN.N. \n     \n     \n\n\n\nFriedrich-Schiller-Universität Jena — Institute for Political Science\n\n\nPost-Doctoral researcherJob call will open in November 2025\n\n\nInternational organizations Qualitative methods ???\n\n\n\n\n\n\n\n\n\n\nN.N. \n     \n     \n\n\n\nWZB Berlin Social Science Center\n\n\nPre-Doctoral researcherJob call will open in November 2025\n\n\nPolitical science Quantitative text analysis ???"
   }
 ]
